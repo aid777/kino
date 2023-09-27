@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const CountrySchema = new mongoose.Schema({
     name: String,
-    key: Number,
+    key: String,
 })
 
-module.exports = mongoose.model('Сountry', CountrySchema)
+module.exports = mongoose.model('country', CountrySchema)

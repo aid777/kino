@@ -4,7 +4,7 @@ const writeDataCountry = require('./seed')
 
 const {getAllCountries} = require('./controller')
 
-router.get('/api/country', getAllCountries)
+router.get('/api/country' , getAllCountries)
 writeDataCountry()
 
 

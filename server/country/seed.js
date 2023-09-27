@@ -1,4 +1,4 @@
-const Country = require('./country')
+const Country = require('./Сountry')
 
 const data = [
     'Россия',
